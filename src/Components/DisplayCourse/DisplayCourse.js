@@ -11,7 +11,7 @@ const DisplayCourse = () => {
     }, [])
 
     return (
-        <div className="course-container">
+        <div className="course-container ">
             <h2>Our courses</h2>
             <div className="search-box p-3">
                 <input type="text" className='p-2' placeholder="Enter Your Course Name" />
