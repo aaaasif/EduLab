@@ -2,7 +2,3 @@
     padding: 30px;
     
 }
-.displa-course{
-    display: grid;
-    grid-template-columns: auto auto auto;
-}

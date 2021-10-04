@@ -13,13 +13,13 @@ const DisplayCourse = () => {
     return (
         <div className="course-container">
             <h2>Our courses</h2>
-            <div className="search-box">
+            <div className="search-box p-3">
                 <input type="text" className='p-2' placeholder="Enter Your Course Name" />
                 <button className="btn- btn-danger p-2">search</button>
             </div>
-            <div className='row'>
+            <div className='row d-flex justify-content-evenly m-2'>
                 {
-                        courses.map(course =><Course 
+                        courses.map(course =><Course
                             key={course.key}
                             course={course}></Course>)
                 }
@@ -29,16 +29,3 @@ const DisplayCourse = () => {
 };
 
 export default DisplayCourse;
-
-
-// {
-//     courses.map(course =><Course 
-//         key={course.key}
-//         course={course}></Course>)
-// }
-
-// courses.map(course => <div className="col-md-4">
-//                          <div className="cart">
-                             
-//                          </div>
-//                     </div>)
