@@ -12,25 +12,27 @@ const Course = (props) => {
     const clock = <FontAwesomeIcon icon={faClock} />
     const eye = <FontAwesomeIcon icon={faEye} />
     return (
-        <div className="col-md-4 display-course align-middle ">
+        <div className="col-md-4 display-course ">
                 <div >
-                    <img src={photo} className="card-img-top w-50" alt="..."/>
+                    <img src={photo} className="card-img-top w-50 rounded mx-auto d-block" alt="..."/>
                </div>
                     <div className="card-body">
-                    <h5 className="card-title">{name}</h5>
-                    <p>{price}TK</p>
+                    <h5 className="card-title text-center">{name}</h5>
+                    <div className="d-flex justify-content-evenly m-2">
+                    <p >{price}TK</p>
                     <small>{eye} {views}</small> <br />
-                    <Rating 
+                    </div>
+                    <Rating
                     initialRating={rating}
                     emptySymbol="far fa-star icon-color"
                     fullSymbol="fas fa-star icon-color"
-                    readonly></Rating>
+                    readonly className="rating"></Rating>
                     <div className="d-flex justify-content-around">
                     <p>{user} {enrolledBy} Students Enrolled</p>
                     <small>{clock}{duration}</small>
                     </div>
-                    <p className="card-text">{role}</p>
-                    <button className='btn btn-primary'>see more</button>
+                    <p className="card-text text-center">{role}</p>
+                    <button className='btn btn-primary mx-auto d-block'>see more</button>
                 </div>
         </div>
     );

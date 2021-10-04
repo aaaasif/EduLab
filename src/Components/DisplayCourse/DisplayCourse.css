@@ -2,3 +2,15 @@
     padding: 30px;
     
 }
+.search-box{
+    text-align: center;
+}
+button{
+    border-radius: 5px;
+}
+.button:hover {
+    background-color: white;
+    color: red; 
+    border: 1px solid red;   
+
+}

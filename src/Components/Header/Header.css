@@ -1,0 +1,20 @@
+.header-bg {
+    background-color: rgb(115, 133, 133);
+}
+.navLink {
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    background-color: rgb(74, 85, 85);
+    /* border-radius: 10px; */
+    /* transition: 0.3s; */
+}
+.navLink:hover {
+    background-color: rgb(41, 46, 46);
+    /* transform: scale(1.1); */
+    /* border-bottom-left-radius: 5px; */
+    /* border-bottom-right-radius: 5px; */
+}
+.login-Button{
+    
+}
