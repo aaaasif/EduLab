@@ -1,6 +1,7 @@
 import './App.css';
-// import Banner from './Components/Banner/Banner';
-// import Footer from './Components/Footer/Footer'
+import Banner from './Components/Banner/Banner';
+import DisplayCourse from './Components/DisplayCourse/DisplayCourse';
+import Footer from './Components/Footer/Footer'
 // import {
 //   BrowserRouter as Router,
 //   Switch,
@@ -13,7 +14,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-     
+     <Banner></Banner>
+     <DisplayCourse></DisplayCourse>
+     <Footer></Footer>
     </div>
   );
 }
