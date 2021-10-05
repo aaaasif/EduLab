@@ -1,5 +1,5 @@
 .container{
-    background-color: rgb(141, 131, 131);
+    background-color: #C2F9BB;
     max-width: 100%;
 }
 .about-text{
@@ -11,6 +11,6 @@
     width: 80%;
     margin: auto;
     padding: 20px;
-    background-color: honeydew;
+    background-color: #9AD1D4;
     border-radius: 10px;
 }

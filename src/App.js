@@ -12,6 +12,7 @@ import Home from './Components/Home/Home';
 import NotFound from './Components/NotFound/NotFound';
 import Success from './Components/Success/Success';
 import About from './Components/About/About';
+import AllCourses from './Components/AllCourses/AllCourses';
 
 
 function App() {
@@ -27,6 +28,9 @@ function App() {
             </Route>
             <Route path="/success">
               <Success></Success>
+            </Route>
+            <Route path="/Courses">
+              <AllCourses></AllCourses>
             </Route>
             <Route path="/about">
               <About></About>

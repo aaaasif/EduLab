@@ -14,6 +14,7 @@ const Header = () => {
                     <h1 className="fw-bolder text-dark">{Book}EduLab</h1>
                     <div className="navbar m-2">
                     <NavLink  to="/home"><button className="navLink p-3">Home</button></NavLink>
+                    <NavLink  to="/Courses"><button className="navLink p-3">Courses</button></NavLink>
                     <NavLink  to="/success"><button className="navLink p-3">Success</button></NavLink>
                     <NavLink  to="/about"><button className="navLink p-3">About</button></NavLink>
                     <NavLink  to="/contact"><button className="navLink p-3">Contact</button></NavLink>

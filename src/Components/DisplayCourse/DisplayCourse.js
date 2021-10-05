@@ -9,14 +9,16 @@ const DisplayCourse = () => {
         .then(res => res.json())
         .then(data => setCourses(data))
     }, [])
+    const sixCourse = courses.filter(course => course.key >= 5);
+    // console.log(sixCourse);
 
     return (
         <div className="course-container ">
-            <h2 className="text-center">Our courses</h2>
+            <h2 className="text-center">Our Popular Courses</h2>
             
             <div className='row d-flex justify-content-evenly m-2'>
                 {
-                        courses.map(course =><Course
+                        sixCourse.map(course =><Course
                             key={course.key}
                             course={course}></Course>)
                 }

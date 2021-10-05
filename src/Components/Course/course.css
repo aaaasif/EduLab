@@ -2,13 +2,14 @@
     width: 400px;
     border: 2px solid black;
     padding: 10px;
-    background: #F2F2F2;
+    background: #C2F9BB;
     border-radius: 10px;
     margin: 10px;
     transition: transform .2s;
 }
 .display-course:hover{
-    box-shadow: 10px 10px 5px rgb(150, 144, 144);
+    box-shadow: 10px 10px 5px #62C370;
+    background-color: #62C370;
 }
 .icon-color{
     color: gold;

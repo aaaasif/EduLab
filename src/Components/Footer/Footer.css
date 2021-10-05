@@ -1,9 +1,8 @@
 .icon {
-    margin: 5px;
-    padding: 5px;
-    background-color: rgb(46, 46, 46);
+    margin: 0px;
+    background-color: #C2F9BB;
     /* border-radius: 5px; */
-    color: rgb(155, 155, 155);
+    color: black;
     font-size: 30px;
   }
   .icon:hover {
@@ -16,7 +15,7 @@
     cursor: pointer;
   }
   .footer-menu:hover {
-    color: red;
+    color: #62C370;
   }
   .footer-input {
     padding: 8px;
@@ -25,7 +24,7 @@
     background-color: gray;
   }
   .footer-container {
-    background-color: #191919;
+    background-color: #C2F9BB;
     padding: 50px;
     color: rgb(216, 209, 209);
   }
