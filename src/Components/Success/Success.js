@@ -1,10 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Header from '../Header/Header';
 import './Success.css'
 
 const Success = () => {
     return (
         <div>
+            <Header></Header>
+            <div className="top-text text-center">
+                   <h1>Successful Students</h1>
+                    <p>Below are the profiles of some of the people who have learned from our course and got jobs / interns in       different places</p>
+            </div>
         <div className="main">
         <div className="content ">
             <div className="container-content">

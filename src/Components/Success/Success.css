@@ -3,11 +3,11 @@
     padding: 0px;
 }
 .main {
-    background-color: white;
+    background-color: skyb;
     max-width: 100%;
     border-radius: 10px;
     padding: 50px 100px;
-    margin: 100px auto;
+    margin:  auto;
     display: grid;
     grid-template-columns: auto auto auto;
     align-items: center;
@@ -27,6 +27,11 @@
 }
 .container-content:hover {
     border: 1px solid#1DA1F2;
+    color: white;
+    background-color: black;
+}
+.container-content:hover a{
+    color: white;
 }
 img {
     margin: 10px 20px 10px 0px;

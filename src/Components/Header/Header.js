@@ -12,12 +12,12 @@ const Header = () => {
             <div className="header-bg">
                 <div className="container d-flex justify-content-between align-items-center">
                     <h1 className="fw-bolder text-dark">{Book}EduLab</h1>
-                    <nav className="mx-3">
-                        <NavLink className="" to="/home"><button className="navLink p-3">Home</button></NavLink>
-                        <NavLink className="" to="/success"><button className="navLink p-3">Success</button></NavLink>
-                        <NavLink className="" to="/about"><button className="navLink p-3">About</button></NavLink>
-                        <NavLink className="" to="/contact"><button className="navLink p-3">Contact</button></NavLink>
-                    </nav>
+                    <div className="navbar m-2">
+                    <NavLink  to="/home"><button className="navLink p-3">Home</button></NavLink>
+                    <NavLink  to="/success"><button className="navLink p-3">Success</button></NavLink>
+                    <NavLink  to="/about"><button className="navLink p-3">About</button></NavLink>
+                    <NavLink  to="/contact"><button className="navLink p-3">Contact</button></NavLink>
+                    </div>
                     <div>
                         <form className="d-flex">
                             <button className="navLink p-3">{Singin}Login</button>
