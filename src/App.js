@@ -1,8 +1,4 @@
 import './App.css';
-// import Banner from './Components/Banner/Banner';
-// import DisplayCourse from './Components/DisplayCourse/DisplayCourse';
-import Footer from './Components/Footer/Footer'
-import Header from './Components/Header/Header';
 import {
   BrowserRouter as Router,
   Switch,
@@ -12,7 +8,7 @@ import Home from './Components/Home/Home';
 import NotFound from './Components/NotFound/NotFound';
 import Success from './Components/Success/Success';
 import About from './Components/About/About';
-import AllCourses from './Components/AllCourses/AllCourses';
+import ShoingAllCourses from './Components/ShoingAllCourses/ShoingAllCourses';
 
 
 function App() {
@@ -29,8 +25,8 @@ function App() {
             <Route path="/success">
               <Success></Success>
             </Route>
-            <Route path="/Courses">
-              <AllCourses></AllCourses>
+            <Route path="/courses">
+              <ShoingAllCourses></ShoingAllCourses>
             </Route>
             <Route path="/about">
               <About></About>

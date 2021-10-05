@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import './Success.css'
-
 const Success = () => {
+
     return (
         <div>
             <Header></Header>

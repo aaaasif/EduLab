@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import "./AllCourses.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faQuoteLeft, faQuoteRight } from '@fortawesome/free-solid-svg-icons'
 
 const AllCourses = () => {
+    const QuoteLeft = <FontAwesomeIcon icon={faQuoteLeft} />
+    const QuoteRight = <FontAwesomeIcon icon={faQuoteRight} />
 
     const [allCourses, setAllCourses] =useState([]); 
 
@@ -12,13 +16,11 @@ const AllCourses = () => {
     }, [])
     // console.log(allCourses);
     return (
-        <div className='container text-center'>
-            <h1>sob course paben ekhane</h1>
-            <div className="search-box">
-                <input type="text"className="p-2" placeholder="enter your course name" />
-                <button className="btn btn-danger p-2"> search</button>
-            </div>
-            <div className="">
+        <div className='container'>
+            <br /> <br />
+            <h1 className="text-center m-5">Transform your life through education</h1>
+            <p className='p-3 text-center'>{QuoteLeft} Learners around the world are launching new careers, advancing in their fields, and enriching their lives. {QuoteRight}</p>
+            <div className="text-center">
                 <div className="row">
                     {
                         allCourses.map(allcrs=> <div className="col-md-4 ">
