@@ -11,6 +11,7 @@ import {
 import Home from './Components/Home/Home';
 import NotFound from './Components/NotFound/NotFound';
 import Success from './Components/Success/Success';
+import About from './Components/About/About';
 
 
 function App() {
@@ -26,6 +27,9 @@ function App() {
             </Route>
             <Route path="/success">
               <Success></Success>
+            </Route>
+            <Route path="/about">
+              <About></About>
             </Route>
             <Route path="*">
               <NotFound></NotFound>

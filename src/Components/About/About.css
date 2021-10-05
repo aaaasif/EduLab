@@ -1,0 +1,16 @@
+.container{
+    background-color: rgb(141, 131, 131);
+    max-width: 100%;
+}
+.about-text{
+    margin: auto;
+    width: 50%;
+
+}
+.about-team{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: honeydew;
+    border-radius: 10px;
+}
