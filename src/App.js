@@ -9,6 +9,7 @@ import NotFound from './Components/NotFound/NotFound';
 import Success from './Components/Success/Success';
 import About from './Components/About/About';
 import ShoingAllCourses from './Components/ShoingAllCourses/ShoingAllCourses';
+import Contact from './Components/Contact/Contact';
 
 
 function App() {
@@ -30,6 +31,9 @@ function App() {
             </Route>
             <Route path="/about">
               <About></About>
+            </Route>
+            <Route path="/contact">
+              <Contact></Contact>
             </Route>
             <Route path="*">
               <NotFound></NotFound>
