@@ -5,7 +5,7 @@
 .about-text{
     margin: auto;
     width: 50%;
-
+    
 }
 .about-team{
     width: 80%;
@@ -13,4 +13,12 @@
     padding: 20px;
     background-color: #9AD1D4;
     border-radius: 10px;
+    
+}
+.margin{
+    border-right: 2px solid black;
+}
+.policy-text{
+    border-bottom: 2px solid black;
+
 }

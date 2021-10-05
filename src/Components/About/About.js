@@ -16,9 +16,9 @@ const About = () => {
                 </div>
             </div>
             <div className="about-team d-flex justify-content-around">
-                <div>
+                <div className='p-2'>
                     <h1>About Our Teachers</h1>
-                    <p>All the trainers are Senior Software Developer and Associate Professor holding PhD in Computer Engineering with over 20 years of teaching experience.
+                    <p className='margin'>All the trainers are Senior Software Developer and Associate Professor holding PhD in Computer Engineering with over 20 years of teaching experience.
                     Experienced Software Developer equipped with a diverse and promising skill-set. Proficient in various platforms, languages, and database systems.
                     We use student-centered, personalized way of teaching. My lessons are well organized and adapted to your needs.</p>
                 </div>
@@ -29,7 +29,8 @@ const About = () => {
                     We use student-centered, personalized way of teaching. My lessons are well organized and adapted to your needs.</p>
                 </div>
             </div>
-            <div className="about-text">
+            <br />
+            <div className="policy-text about-text p-2">
                 <h1>Our Privacy policy</h1>
                 <p>Take a minute and read the site's Privacy Policy, as well as the Kids' Privacy Policy for additional information. There is a link to the company's privacy policy on the catalog request page, so you can review exactly how your personal information will be used before sending in your request.</p>
             </div>
