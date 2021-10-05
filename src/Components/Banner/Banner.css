@@ -1,4 +1,21 @@
-.banner{
-    margin: 50px;
-    justify-items: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.section{
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+    background-image: url("https://i.ibb.co/jynXTfb/imageedit-1-2399669827.png");
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header-text{
+    text-align: center;
+    font-size: large;
+}
+.header-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 90px;
+    color: black;
+
 }

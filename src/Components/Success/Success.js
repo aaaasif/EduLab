@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import './Success.css'
 
@@ -27,7 +28,7 @@ const Success = () => {
         <div className="content">
             <div className="container-content ">
                 <div>
-                    <Link href="" target="_blank"><img src="https://images.freeimages.com/images/premium/previews/3843/38439378-happy-indian-man.jpg" alt="img" width="50px" height="50px"/></Link>
+                    <Link href="" target="_blank"><img className="success-people" src="https://images.freeimages.com/images/premium/previews/3843/38439378-happy-indian-man.jpg" alt="img" width="50px" height="50px"/></Link>
                 </div>
                 <div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias error consequatur iusto sint voluptatibus earum, pariatur ducimus illum ipsam ut.</p>
@@ -39,7 +40,7 @@ const Success = () => {
         <div className="content">
             <div className="container-content">
                 <div>
-                    <Link href="" target="_blank"><img src="https://images.freeimages.com/images/premium/previews/3843/38439378-happy-indian-man.jpg" alt="img" width="50px" height="50px"/></Link>
+                    <Link href="" target="_blank"><img className="success-people" src="https://images.freeimages.com/images/premium/previews/3843/38439378-happy-indian-man.jpg" alt="img" width="50px" height="50px"/></Link>
                 </div>
                 <div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias error consequatur iusto sint voluptatibus earum, pariatur ducimus illum ipsam ut.</p>
@@ -51,7 +52,7 @@ const Success = () => {
         <div className="content">
             <div className="container-content">
                 <div>
-                    <Link href="" target="_blank"><img src="https://images.freeimages.com/images/premium/previews/3843/38439378-happy-indian-man.jpg" alt="img" width="50px" height="50px"/></Link>
+                    <Link href="" target="_blank"><img className="success-people" src="https://images.freeimages.com/images/premium/previews/3843/38439378-happy-indian-man.jpg" alt="img" width="50px" height="50px"/></Link>
                 </div>
                 <div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias error consequatur iusto sint voluptatibus earum, pariatur ducimus illum ipsam ut.</p>
@@ -63,7 +64,7 @@ const Success = () => {
         <div className="content">
             <div className="container-content">
                 <div>
-                    <Link href="" target="_blank"><img src="https://images.freeimages.com/images/premium/previews/3843/38439378-happy-indian-man.jpg" alt="img" width="50px" height="50px"/></Link>
+                    <Link href="" target="_blank"><img className="success-people" src="https://images.freeimages.com/images/premium/previews/3843/38439378-happy-indian-man.jpg" alt="img" width="50px" height="50px"/></Link>
                 </div>
                 <div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias error consequatur iusto sint voluptatibus earum, pariatur ducimus illum ipsam ut.</p>
@@ -75,7 +76,7 @@ const Success = () => {
         <div className="content">
             <div className="container-content">
                 <div>
-                    <Link href="" target="_blank"><img src="https://images.freeimages.com/images/premium/previews/3843/38439378-happy-indian-man.jpg" alt="img" width="50px" height="50px"/></Link>
+                    <Link href="" target="_blank"><img className="success-people" src="https://images.freeimages.com/images/premium/previews/3843/38439378-happy-indian-man.jpg" alt="img" width="50px" height="50px"/></Link>
                 </div>
                 <div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias error consequatur iusto sint voluptatibus earum, pariatur ducimus illum ipsam ut.</p>
@@ -87,7 +88,7 @@ const Success = () => {
         <div className="content">
             <div className="container-content">
                 <div>
-                    <Link href="" target="_blank"><img src="https://images.freeimages.com/images/premium/previews/3843/38439378-happy-indian-man.jpg" alt="img" width="50px" height="50px"/></Link>
+                    <Link href="" target="_blank"><img className="success-people" src="https://images.freeimages.com/images/premium/previews/3843/38439378-happy-indian-man.jpg" alt="img" width="50px" height="50px"/></Link>
                 </div>
                 <div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias error consequatur iusto sint voluptatibus earum, pariatur ducimus illum ipsam ut.</p>
@@ -99,7 +100,7 @@ const Success = () => {
         <div className="content">
             <div className="container-content">
                 <div>
-                    <Link href="" target="_blank"><img src="https://images.freeimages.com/images/premium/previews/3843/38439378-happy-indian-man.jpg" alt="img" width="50px" height="50px"/></Link>
+                    <Link href="" target="_blank"><img className="success-people" src="https://images.freeimages.com/images/premium/previews/3843/38439378-happy-indian-man.jpg" alt="img" width="50px" height="50px"/></Link>
                 </div>
                 <div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias error consequatur iusto sint voluptatibus earum, pariatur ducimus illum ipsam ut.</p>
@@ -111,7 +112,7 @@ const Success = () => {
         <div className="content">
             <div className="container-content">
                 <div>
-                    <Link href="" target="_blank"><img src="https://images.freeimages.com/images/premium/previews/3843/38439378-happy-indian-man.jpg" alt="img" width="50px" height="50px"/></Link>
+                    <Link href="" target="_blank"><img className="success-people" src="https://images.freeimages.com/images/premium/previews/3843/38439378-happy-indian-man.jpg" alt="img" width="50px" height="50px"/></Link>
                 </div>
                 <div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias error consequatur iusto sint voluptatibus earum, pariatur ducimus illum ipsam ut.</p>
@@ -123,6 +124,7 @@ const Success = () => {
         
     </div>
     <Link className="text-center">See More</Link>
+    <Footer></Footer>
     </div>
     );
 };
