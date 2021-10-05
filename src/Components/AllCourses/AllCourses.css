@@ -1,0 +1,20 @@
+.container{
+    background-color: rgb(198, 223, 233);
+}
+.service {
+    border-radius: 15px;
+    border: 20px;
+    transition: 0.4s;
+    border-radius: 15px;
+    border: none;
+    padding: 20px;
+    margin: 10px;
+    background-color: whitesmoke;
+}
+.service:hover {
+    transform: scale(1.03);
+}
+.card-img{
+    border-radius: 150px;
+    max-width: 50%;
+}

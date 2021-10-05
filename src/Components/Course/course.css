@@ -1,15 +1,14 @@
 .display-course{
     width: 400px;
-    border: 2px solid black;
     padding: 10px;
     background: #C2F9BB;
-    border-radius: 10px;
     margin: 10px;
-    transition: transform .2s;
+    transition: 0.4s;
+    border-radius: 15px;
+    border: none;
 }
 .display-course:hover{
-    box-shadow: 10px 10px 5px #62C370;
-    background-color: #62C370;
+    transform: scale(1.03);
 }
 .icon-color{
     color: gold;
