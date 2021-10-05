@@ -35,7 +35,7 @@ const Footer = () => {
                 </p>
 
                 <p className="mt-5">
-                  <small>Zemez © . All rights reserved.</small>
+                  <small>All rights reserved by aaasif </small>
                 </p>
               </div>
             </div>
@@ -43,8 +43,8 @@ const Footer = () => {
               <div className="footer-menu-container">
                 <ul>
                   <li className="footer-menu">Home</li>
-                  <li className="footer-menu">Services</li>
-                  <li className="footer-menu">Sports</li>
+                  <li className="footer-menu">Courses</li>
+                  <li className="footer-menu">Success</li>
                   <li className="footer-menu">Contact us</li>
                   <li className="footer-menu"> About us</li>
                 </ul>
@@ -54,9 +54,9 @@ const Footer = () => {
               <div className="right-footer-container">
                 <h3>Sign up for the newsletter</h3>
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="EnterYour Email" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
+                    <input type="text" className="form-control" placeholder="EnterYour Email" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
                   <div class="input-group-append">
-                    <button class="btn btn-outline-secondary" type="button">SingUp</button>
+                    <button className="btn btn-outline-secondary m-1" type="button">SingUp</button>
                   </div>
                 </div>
               </div>

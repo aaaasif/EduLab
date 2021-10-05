@@ -1,12 +1,14 @@
+footer{
+  max-width: 100%;
+}
+.footer-container{
+  background-color: #C6DFE9;
+}
 .icon {
     margin: 0px;
-    background-color: #C2F9BB;
     /* border-radius: 5px; */
     color: black;
     font-size: 30px;
-  }
-  .icon:hover {
-    background-color: rgb(250, 25, 25);
   }
   .footer-menu {
     list-style: none;
@@ -15,18 +17,16 @@
     cursor: pointer;
   }
   .footer-menu:hover {
-    color: #62C370;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   .footer-input {
     padding: 8px;
     border: none;
     outline: none;
-    background-color: gray;
   }
   .footer-container {
-    background-color: #C2F9BB;
     padding: 50px;
-    color: rgb(216, 209, 209);
+    color: black;
   }
   .foter-phone-icon {
     font-size: 30px;

@@ -20,15 +20,18 @@
     width: 350px;
     text-align: left;
     border: 1px solid rgb(226, 226, 226);
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 10px;
     padding: 20px 20px 0px 20px;
     box-sizing: border-box;
+    transition: 0.4s;
+    background-color: whitesmoke;
 }
 .container-content:hover {
     border: 1px solid#1DA1F2;
-    color: white;
-    background-color: black;
+    color: black;
+    
+    transform: scale(1.03);
 }
 .container-content:hover a{
     color: white;
@@ -53,10 +56,13 @@ a {
     color: black;
 }
 a:hover {
-    color: #1DA1F2;
+    color: red;
 }
 .bottom-text {
     font-size: 10px;
     float: right;
     margin-top: 10px;
+}
+.find-more{
+    font-size: 30px;
 }

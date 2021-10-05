@@ -9,7 +9,7 @@ const DisplayCourse = () => {
         .then(res => res.json())
         .then(data => setCourses(data))
     }, [])
-    const sixCourse = courses.filter(course => course.key >= 5);
+    const sixCourse = courses.filter(course => course.key >= 7);
     // console.log(sixCourse);
 
     return (

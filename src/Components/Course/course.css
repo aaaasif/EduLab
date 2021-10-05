@@ -1,11 +1,11 @@
 .display-course{
     width: 400px;
     padding: 10px;
-    background: #C2F9BB;
     margin: 10px;
     transition: 0.4s;
     border-radius: 15px;
     border: none;
+    background-color: whitesmoke;
 }
 .display-course:hover{
     transform: scale(1.03);

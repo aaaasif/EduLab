@@ -128,5 +128,31 @@
         "views" :98765,
         "photo": "https://img.favpng.com/9/3/19/programmer-software-engineer-personal-computer-computer-software-png-favpng-bPduRQ3Z4rHzF56bzSxC3bWxd.jpg",
         "discription":"At present, most of the jobs in Freelancing are available in Graphics Design. You also need to learn graphic design to make a living by freelancing or to edit your own photos at work or as a hobby. So the Graphics Design course of Dragon Learning is giving Basic Photoshop & Illustrator lessons, through which you too can become a successful Freelancer."
+    },
+    {
+        "key": 11,
+        "name": "Graphic designer",
+        "role": "UI developer",
+        "enrolledBy": 20,
+        "Language": "English",
+        "duration" : "5hr10min",
+        "price": 6500,
+        "rating": 5,
+        "views" :98765,
+        "photo": "https://img.favpng.com/9/3/19/programmer-software-engineer-personal-computer-computer-software-png-favpng-bPduRQ3Z4rHzF56bzSxC3bWxd.jpg",
+        "discription":"At present, most of the jobs in Freelancing are available in Graphics Design. You also need to learn graphic design to make a living by freelancing or to edit your own photos at work or as a hobby. So the Graphics Design course of Dragon Learning is giving Basic Photoshop & Illustrator lessons, through which you too can become a successful Freelancer."
+    },
+    {
+        "key": 11,
+        "name": "Graphic designer",
+        "role": "UI developer",
+        "enrolledBy": 20,
+        "Language": "English",
+        "duration" : "5hr10min",
+        "price": 6500,
+        "rating": 5,
+        "views" :98765,
+        "photo": "https://img.favpng.com/9/3/19/programmer-software-engineer-personal-computer-computer-software-png-favpng-bPduRQ3Z4rHzF56bzSxC3bWxd.jpg",
+        "discription":"At present, most of the jobs in Freelancing are available in Graphics Design. You also need to learn graphic design to make a living by freelancing or to edit your own photos at work or as a hobby. So the Graphics Design course of Dragon Learning is giving Basic Photoshop & Illustrator lessons, through which you too can become a successful Freelancer."
     }
 ]

@@ -6,7 +6,7 @@ import './Success.css'
 const Success = () => {
 
     return (
-        <div>
+        <div className='container'>
             <Header></Header>
             <div className="top-text text-center">
                    <h1>Successful Students</h1>
@@ -20,7 +20,6 @@ const Success = () => {
                 </div>
                 <div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias error consequatur iusto sint voluptatibus earum, pariatur ducimus illum ipsam ut.</p>
-                    <Link href="" target="_blank">aaaasif</Link>
                     <p className="bottom-text">Microsoft</p>
                 </div>
             </div>      
@@ -32,7 +31,6 @@ const Success = () => {
                 </div>
                 <div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias error consequatur iusto sint voluptatibus earum, pariatur ducimus illum ipsam ut.</p>
-                    <Link href="" target="_blank">aaaasif</Link>
                     <p className="bottom-text">Microsoft</p>
                 </div>
             </div>
@@ -44,7 +42,6 @@ const Success = () => {
                 </div>
                 <div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias error consequatur iusto sint voluptatibus earum, pariatur ducimus illum ipsam ut.</p>
-                    <Link href="" target="_blank">aaaasif</Link>
                     <p className="bottom-text">Microsoft</p>
                 </div>
             </div>
@@ -56,7 +53,6 @@ const Success = () => {
                 </div>
                 <div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias error consequatur iusto sint voluptatibus earum, pariatur ducimus illum ipsam ut.</p>
-                    <Link href="" target="_blank">aaaasif</Link>
                     <p className="bottom-text">Microsoft</p>
                 </div>
             </div>
@@ -68,7 +64,6 @@ const Success = () => {
                 </div>
                 <div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias error consequatur iusto sint voluptatibus earum, pariatur ducimus illum ipsam ut.</p>
-                    <Link href="" target="_blank">aaaasif</Link>
                     <p className="bottom-text">Microsoft</p>
                 </div>
             </div>
@@ -80,7 +75,6 @@ const Success = () => {
                 </div>
                 <div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias error consequatur iusto sint voluptatibus earum, pariatur ducimus illum ipsam ut.</p>
-                    <Link href="" target="_blank">aaaasif</Link>
                     <p className="bottom-text">Microsoft</p>
                 </div>
             </div>
@@ -92,7 +86,6 @@ const Success = () => {
                 </div>
                 <div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias error consequatur iusto sint voluptatibus earum, pariatur ducimus illum ipsam ut.</p>
-                    <Link href="" target="_blank">aaaasif</Link>
                     <p className="bottom-text">Microsoft</p>
                 </div>
             </div>
@@ -104,7 +97,6 @@ const Success = () => {
                 </div>
                 <div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias error consequatur iusto sint voluptatibus earum, pariatur ducimus illum ipsam ut.</p>
-                    <Link href="" target="_blank">aaaasif</Link>
                     <p className="bottom-text">Microsoft</p>
                 </div>
             </div>
@@ -116,14 +108,13 @@ const Success = () => {
                 </div>
                 <div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias error consequatur iusto sint voluptatibus earum, pariatur ducimus illum ipsam ut.</p>
-                    <Link href="" target="_blank">aaaasif</Link>
                     <p className="bottom-text">Microsoft</p>
                 </div>
             </div>
         </div>
         
     </div>
-    <Link className="text-center">See More</Link>
+    <Link className="text-center find-more">See More</Link>
     <Footer></Footer>
     </div>
     );
