@@ -26,7 +26,7 @@ const Course = (props) => {
                     initialRating={rating}
                     emptySymbol="far fa-star icon-color"
                     fullSymbol="fas fa-star icon-color"
-                    readonly className="rating"></Rating>
+                    readonly className="d-flex justify-content-center"></Rating>
                     <div className="d-flex justify-content-around">
                     <p>{user} {enrolledBy} Students Enrolled</p>
                     <small>{clock}{duration}</small>

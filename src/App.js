@@ -10,9 +10,7 @@ import {
 } from "react-router-dom";
 import Home from './Components/Home/Home';
 import NotFound from './Components/NotFound/NotFound';
-import Details from './Components/Details/Details';
-// import MenuBar from './Components/MenuBar/MenuBar';
-
+import Success from './Components/Success/Success';
 
 
 function App() {
@@ -26,10 +24,9 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
-            {/* <Route path="/details/:teamId">
-              <Details></Details>
-            </Route> */}
-            <Details></Details>
+            <Route path="/success">
+              <Success></Success>
+            </Route>
             <Route path="*">
               <NotFound></NotFound>
             </Route>
