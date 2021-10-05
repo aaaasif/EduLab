@@ -2,12 +2,12 @@ import React from 'react';
 import "./Home.css"
 import DisplayCourse from '../DisplayCourse/DisplayCourse';
 import Footer from '../Footer/Footer';
-import Header from '../Header/Header';
+import Banner from '../Banner/Banner';
 
 const Home = () => {
     return (
         <div>
-            <Header></Header>
+            <Banner></Banner>
             <DisplayCourse></DisplayCourse>
             <Footer></Footer>
         </div>

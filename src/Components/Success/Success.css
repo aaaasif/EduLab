@@ -33,12 +33,12 @@
 .container-content:hover a{
     color: white;
 }
-img {
+.success-people {
     margin: 10px 20px 10px 0px;
     border-radius: 100px;
     box-sizing: border-box;
 }
-img:hover {
+.success-people:hover {
     border: 2px solid black;
 }
 p {
