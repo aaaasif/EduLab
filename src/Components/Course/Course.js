@@ -19,7 +19,7 @@ const Course = (props) => {
                     <div className="card-body">
                     <h5 className="card-title text-center">{name}</h5>
                     <div className="d-flex justify-content-evenly m-2">
-                    <p >{price}TK</p>
+                    <p >Price:{price}TK</p>
                     <small>{eye} {views}</small> <br />
                     </div>
                     <Rating
